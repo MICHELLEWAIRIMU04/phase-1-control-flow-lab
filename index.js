@@ -1,6 +1,6 @@
-function scuberGreetingForFeet(ride) {
+/*function scuberGreetingForFeet(ride) {
   if(ride <= 400) {
-    return 'This is on me!'
+    return 'This is one on me!'
   }
   else if(ride > 400 && ride < 2000) {
     return 'That will be twenty bucks.'
@@ -19,9 +19,10 @@ console.log(scuberGreetingForFeet(2501))
 
 
 
-//function ternaryCheckCity() {
+
 const city = 'NYC'
 console.log(city === 'Pittsburgh' ? 'Ok, sounds good.' : 'No go.')
+*/
 
 
 function switchOnCharmFromTip(tip){
@@ -30,13 +31,13 @@ function switchOnCharmFromTip(tip){
     return 'Thank you so much.'
   break ;
 
-  case 'not generous':
+  case 'not as generous':
     return 'Thank you.'
   break ;
 
   default:
-    return 'Bye.'
+    return 'Bye'
   
 }
 }
-console.log(switchOnCharmFromTip('Thanks for everythng'))
+console.log(switchOnCharmFromTip('not as generous'))
