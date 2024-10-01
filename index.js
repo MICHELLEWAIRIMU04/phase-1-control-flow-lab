@@ -20,10 +20,10 @@ console.log(scuberGreetingForFeet(201))
 
 
 
-const city = 'NYC'
-console.log(city === 'NYC' ? 'Ok, sounds good.' : 'No go.')
-
-
+function ternaryCheckCity (city){
+return  city === "NYC"? "ok, sounds good." : "No go." ;
+}
+console.log(ternaryCheckCity("NYC"))
 
 function switchOnCharmFromTip(tip){
   switch (tip){
@@ -36,8 +36,8 @@ function switchOnCharmFromTip(tip){
   break ;
 
   default:
-    return 'Bye'
+    return 'Bye.'
   
 }
 }
-console.log(switchOnCharmFromTip('generous'))
+console.log(switchOnCharmFromTip('thanks for everything'))
