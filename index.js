@@ -21,7 +21,7 @@ console.log(scuberGreetingForFeet(201))
 
 
 function ternaryCheckCity (city){
-return  city === "NYC"? "ok, sounds good." : "No go." ;
+return  city === "NYC"? "Ok, sounds good." : "No go." ;
 }
 console.log(ternaryCheckCity("NYC"))
 
